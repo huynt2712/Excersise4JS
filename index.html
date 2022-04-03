@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./bai1.js"></script>
+  </head>
+  <body>
+    <label>number 1:</label>
+    <input type="text" id="number1" />
+    <label>number 2:</label>
+    <input type="text" id="number2" />
+    <button onclick="calSubstract()">Substract</button>
+    <label>Result: </label><label id="result"></label>
+
+    <div class="introduction">
+      <h1>Giới thiệu bản thân</h1>
+      <pre id="description">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+      recusandae error atque nisi ex ipsam eveniet voluptatem delectus iste
+      earum fuga assumenda in, esse inventore vel tenetur possimus! Id, dolorum.
+    </pre
+      >
+      <button onclick="changeStyle(1)">Thay đổi màu chữ, font size</button>
+      <button onclick="changeStyle(2)">Thêm border</button>
+      <button onclick="changeStyle(3)">Thay đổi màu nền</button>
+      <button onclick="changeStyle(4)">Thay đổi padding</button>
+      <button onclick="changeStyle(5)">Thay đổi margin</button>
+      <button onclick="changeStyle(6)">Reset về như cũ</button>
+    </div>
+
+    <div class="login">
+      <label>Username:</label><br />
+      <input type="text" id="username" /><br />
+      <label>Password:</label><br />
+      <input type="text" id="password" /><br />
+      <button class="btnLogin" onclick="validate()">Login</button><br />
+      <span id="warning"></span>
+    </div>
+  </body>
+</html>
